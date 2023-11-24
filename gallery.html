@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: black;
+  color: beige;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Aesthetic Gallary</h1>
+  <p>A collection of chaos and harmony.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="anime1.jpg" style="width:100%">
+    <img src="books1.jpg" style="width:100%">
+    <img src="nature3.jpg" style="width:100%">
+    <img src="alcohol2.jpg" style="width:100%">
+    <img src="books3.jpg" style="width:100%">
+    <img src="nature6.jpg" style="width:100%">
+    <img src="anime2.jpg" style="width:100%">
+    <img src="cars1.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="ocean3.jpg" style="width:100%">
+    <img src="manga1.jpg" style="width:100%">
+    <img src="ocean2.jpg" style="width:100%">
+    <img src="alcohol1.jpg" style="width:100%">
+    <img src="food2.jpg" style="width:100%">
+    <img src="nature2.jpg" style="width:100%">
+    <img src="death1.jpg" style="width:100%">
+    <img src="manga3.jpg" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="alcohol1.jpg" style="width:100%">
+    <img src="food1.jpg" style="width:100%">
+    <img src="nature4.jpg" style="width:100%">
+    <img src="ocean6.jpg" style="width:100%">
+    <img src="anime4.jpg" style="width:100%">
+    <img src="ocean5.jpg" style="width:100%">
+    <img src="anime3.jpg" style="width:100%">
+    <img src="cars3.jpg" style="width:100%">
+    <img src="nature1.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="death2.jpg" style="width:100%">
+    <img src="manga2.jpg" style="width:100%">
+    <img src="cars1.jpg" style="width:100%">
+    <img src="ocean4.jpg" style="width:100%">
+    <img src="nature5.jpg" style="width:100%">
+    <img src="books2.jpg" style="width:100%">
+    <img src="manga1.jpg" style="width:100%">
+    <img src="dark.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
+
